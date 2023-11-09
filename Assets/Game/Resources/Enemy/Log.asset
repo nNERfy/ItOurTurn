@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3b30f6c6822be4381adb2a3032b652, type: 3}
+  m_Name: Log
+  m_EditorClassIdentifier: 
+  name: Log
+  description: 
+  frontSprite: {fileID: 21300000, guid: a1219d0ec1fbe0543b6fabcf24c4a43e, type: 2}
+  type1: 2
+  type2: 7
+  maxHp: 30
+  attack: 15
+  defense: 4
+  agi: 5
+  mana: 15
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 41632d0eff5df4d4382853eb64fcc048, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 270ae005d2d6059418651ecc3941132c, type: 2}
+    level: 10
